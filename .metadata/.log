@@ -70,3 +70,6 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1440)
+
+!ENTRY org.eclipse.ui.navigator 4 0 2022-05-16 17:16:30.665
+!MESSAGE Cannot find navigator content extension (using triggerPoints) for object "<null>" parent path: "P/fr.n7.petriNet". Check that you have an expression for this object in a navigatorContent triggerPoints or enablement.
