@@ -1,0 +1,57 @@
+digraph tpn {
+"t0" [shape=square,height=0.444,penwidth=2.0,pos="415.0,402.0",label="Conception_start",xlabel="",xlp="415.0,366.0"]
+"t1" [shape=square,height=0.444,penwidth=2.0,pos="400.0,237.0",label="Conception_finish",xlabel="",xlp="400.0,201.0"]
+"t2" [shape=square,height=0.444,penwidth=2.0,pos="485.0,387.0",label="RedactionDoc_start",xlabel="",xlp="485.0,351.0"]
+"t3" [shape=square,height=0.444,penwidth=2.0,pos="495.0,207.0",label="RedactionDoc_finish",xlabel="",xlp="495.0,171.0"]
+"t4" [shape=square,height=0.444,penwidth=2.0,pos="345.0,112.0",label="Programmation_start",xlabel="",xlp="345.0,76.0"]
+"t5" [shape=square,height=0.444,penwidth=2.0,pos="195.0,172.0",label="Programmation_finish",xlabel="",xlp="195.0,136.0"]
+"t6" [shape=square,height=0.444,penwidth=2.0,pos="300.0,457.0",label="RedactionTests_start",xlabel="",xlp="300.0,421.0"]
+"t7" [shape=square,height=0.444,penwidth=2.0,pos="165.0,342.0",label="RedactionTests_finish",xlabel="",xlp="165.0,306.0"]
+"p8" [shape=circle,height=0.556,penwidth=2.0,pos="450.0,492.0",xlabel="Conception_ready",xlp="450.0,522.0",label="&#9679;"];
+"p9" [shape=circle,height=0.556,penwidth=2.0,pos="400.0,317.0",xlabel="Conception_running",xlp="400.0,347.0",label=""];
+"p10" [shape=circle,height=0.556,penwidth=2.0,pos="390.0,437.0",xlabel="Conception_started",xlp="390.0,467.0",label=""];
+"p11" [shape=circle,height=0.556,penwidth=2.0,pos="420.0,167.0",xlabel="Conception_finished",xlp="420.0,197.0",label=""];
+"p12" [shape=circle,height=0.556,penwidth=2.0,pos="540.0,457.0",xlabel="RedactionDoc_ready",xlp="540.0,487.0",label="&#9679;"];
+"p13" [shape=circle,height=0.556,penwidth=2.0,pos="505.0,297.0",xlabel="RedactionDoc_running",xlp="505.0,327.0",label=""];
+"p14" [shape=circle,height=0.556,penwidth=2.0,pos="570.0,397.0",xlabel="RedactionDoc_started",xlp="570.0,427.0",label=""];
+"p15" [shape=circle,height=0.556,penwidth=2.0,pos="565.0,167.0",xlabel="RedactionDoc_finished",xlp="565.0,197.0",label=""];
+"p16" [shape=circle,height=0.556,penwidth=2.0,pos="390.0,42.0",xlabel="Programmation_ready",xlp="390.0,72.0",label="&#9679;"];
+"p17" [shape=circle,height=0.556,penwidth=2.0,pos="275.0,147.0",xlabel="Programmation_running",xlp="275.0,177.0",label=""];
+"p18" [shape=circle,height=0.556,penwidth=2.0,pos="330.0,32.0",xlabel="Programmation_started",xlp="330.0,62.0",label=""];
+"p19" [shape=circle,height=0.556,penwidth=2.0,pos="165.0,252.0",xlabel="Programmation_finished",xlp="165.0,282.0",label=""];
+"p20" [shape=circle,height=0.556,penwidth=2.0,pos="305.0,540.0",xlabel="RedactionTests_ready",xlp="305.0,570.0",label="&#9679;"];
+"p21" [shape=circle,height=0.556,penwidth=2.0,pos="225.0,407.0",xlabel="RedactionTests_running",xlp="225.0,437.0",label=""];
+"p22" [shape=circle,height=0.556,penwidth=2.0,pos="250.0,515.0",xlabel="RedactionTests_started",xlp="250.0,545.0",label=""];
+"p23" [shape=circle,height=0.556,penwidth=2.0,pos="90.0,362.0",xlabel="RedactionTests_finished",xlp="90.0,392.0",label=""];
+"p24" [shape=circle,height=0.556,penwidth=2.0,pos="255.0,112.0",xlabel="Cafe_resource",xlp="255.0,142.0",label="10"];
+"t7" -> "p23" ;
+"p19" -> "t7" [arrowhead=dot];
+"p21" -> "t7" ;
+"t6" -> "p21" ;
+"t6" -> "p22" ;
+"p10" -> "t6" [arrowhead=dot];
+"p20" -> "t6" ;
+"t5" -> "p19" ;
+"t5" -> "p24" [label="5"];
+"p17" -> "t5" ;
+"t4" -> "p17" ;
+"t4" -> "p18" ;
+"p11" -> "t4" [arrowhead=dot];
+"p16" -> "t4" ;
+"p24" -> "t4" [label="5"];
+"t3" -> "p15" ;
+"p11" -> "t3" [arrowhead=dot];
+"p13" -> "t3" ;
+"t2" -> "p13" ;
+"t2" -> "p14" ;
+"p10" -> "t2" [arrowhead=dot];
+"p12" -> "t2" ;
+"t1" -> "p11" ;
+"p9" -> "t1" ;
+"t0" -> "p9" ;
+"t0" -> "p10" ;
+"p8" -> "t0" ;
+}
+
+
+

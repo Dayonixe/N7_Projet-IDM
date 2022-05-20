@@ -9225,3 +9225,30 @@ Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp
 
 !ENTRY org.eclipse.equinox.p2.repository 2 0 2022-05-20 10:05:28.330
 !MESSAGE No digest algorithm is available to verify download of osgi.bundle,fr.n7.petriNet.toTina.ui,1.0.0.202205201005.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-05-20 10:54:48.158
+!MESSAGE No digest algorithm is available to verify download of org.eclipse.update.feature,fr.n7.eclispe.feature,1.0.0.202205201054.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-05-20 10:54:48.159
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,fr.n7.petriNet.toTina,1.0.0.202205201054.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-05-20 10:54:48.161
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,fr.n7.petriNet.toTina.ui,1.0.0.202205201054.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-05-20 11:01:42.858
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,fr.n7.petriNet.toTina,1.0.0.202205201101.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-05-20 11:01:42.859
+!MESSAGE No digest algorithm is available to verify download of org.eclipse.update.feature,fr.n7.eclispe.feature,1.0.0.202205201101.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2022-05-20 11:01:42.860
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,fr.n7.petriNet.toTina.ui,1.0.0.202205201101.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2022-05-20 11:03:53.593
+!MESSAGE No digest algorithm is available to verify download of org.eclipse.update.feature,fr.n7.eclispe.feature,1.0.0.202205201054.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2022-05-20 11:03:53.629
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,fr.n7.petriNet.toTina,1.0.0.202205201054.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2022-05-20 11:03:53.648
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,fr.n7.petriNet.toTina.ui,1.0.0.202205201054.
