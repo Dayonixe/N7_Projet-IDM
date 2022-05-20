@@ -1,0 +1,20 @@
+pl Acheter_ready (1)
+pl Acheter_running (0)
+pl Acheter_started (0)
+pl Acheter_finished (0)
+pl Cuisiner_ready (1)
+pl Cuisiner_running (0)
+pl Cuisiner_started (0)
+pl Cuisiner_finished (0)
+pl Manger_ready (1)
+pl Manger_running (0)
+pl Manger_started (0)
+pl Manger_finished (0)
+pl Tomates_resource (10)
+
+tr Acheter_start Acheter_ready -> Acheter_running Acheter_started
+tr Acheter_finish Acheter_running -> Acheter_finished
+tr Cuisiner_start Cuisiner_ready Acheter_started?1 Tomates_resource*5 -> Cuisiner_running Cuisiner_started
+tr Cuisiner_finish Cuisiner_running Acheter_finished?1 -> Cuisiner_finished Tomates_resource*5
+tr Manger_start Manger_ready Cuisiner_finished?1 -> Manger_running Manger_started
+tr Manger_finish Manger_running -> Manger_finished
