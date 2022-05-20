@@ -50,12 +50,12 @@
       successor="//@processElements.3"/>
   <processElements
       xsi:type="simplepdl:Guidance"
-      text="Le seul truc marrant"
+      text="Exemple"
       elements="//@processElements.2"/>
   <processElements
       xsi:type="simplepdl:Resource"
-      name="Cafe"
-      nbAvailableResources="10"
+      name="ResourceName"
+      nbAvailableResources="12"
       needs="//@processElements.2/@need.0"/>
   <processElements
       xsi:type="simplepdl:WorkSequence"

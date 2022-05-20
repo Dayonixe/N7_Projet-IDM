@@ -47,9 +47,9 @@
       successor="//@processElements.3"/>
   <processElements
       xsi:type="simplepdl:Guidance"
-      text="Le seul truc marrant"
+      text="Exemple"
       elements="//@processElements.2"/>
   <processElements
       xsi:type="simplepdl:Resource"
-      name="Cafe"/>
+      name="ResourceName"/>
 </simplepdl:Process>
