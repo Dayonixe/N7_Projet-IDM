@@ -23,7 +23,7 @@ digraph tpn {
 "p21" [shape=circle,height=0.556,penwidth=2.0,pos="225.0,407.0",xlabel="RedactionTests_running",xlp="225.0,437.0",label=""];
 "p22" [shape=circle,height=0.556,penwidth=2.0,pos="250.0,515.0",xlabel="RedactionTests_started",xlp="250.0,545.0",label=""];
 "p23" [shape=circle,height=0.556,penwidth=2.0,pos="90.0,362.0",xlabel="RedactionTests_finished",xlp="90.0,392.0",label=""];
-"p24" [shape=circle,height=0.556,penwidth=2.0,pos="255.0,112.0",xlabel="Cafe_resource",xlp="255.0,142.0",label="10"];
+"p24" [shape=circle,height=0.556,penwidth=2.0,pos="255.0,112.0",xlabel="resourceName",xlp="255.0,142.0",label="12"];
 "t7" -> "p23" ;
 "p19" -> "t7" [arrowhead=dot];
 "p21" -> "t7" ;
