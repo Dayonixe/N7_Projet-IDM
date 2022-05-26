@@ -4,7 +4,7 @@ Team : Quentin Gendarme & Théo Pirouelle
 
 <img src="https://img.shields.io/badge/language-java-yellow?style=flat-square" alt="laguage-java" />
 
-![image](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Eclipse-Luna-Logo.svg/2560px-Eclipse-Luna-Logo.svg.png = 250x)
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Eclipse-Luna-Logo.svg/2560px-Eclipse-Luna-Logo.svg.png" alt="eclispe" width="100" />
 
 ---
 
