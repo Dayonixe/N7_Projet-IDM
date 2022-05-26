@@ -29,6 +29,7 @@ import petrinet.Node;
 public class SimplePDLtoPetriNetEMF {
 
 	public static Process loadProcess(String modelPath) {
+
 		// Chargement du package SimplePDL afin de l'enregistrer dans le registre d'Eclipse.
 		SimplepdlPackage packageInstance = SimplepdlPackage.eINSTANCE;
 		
@@ -50,6 +51,7 @@ public class SimplePDLtoPetriNetEMF {
 	}
 	
 	public static void generatePetriNet(Process process, String modelPath) {
+
 		// Charger le package PetriNet afin de l'enregistrer dans le registre d'Eclipse.
 		PetrinetPackage packageInstance = PetrinetPackage.eINSTANCE;
 		
@@ -70,10 +72,10 @@ public class SimplePDLtoPetriNetEMF {
  		resource.getContents().add(petrinet);
  		
  		process.getProcessElements().stream().forEach(pe -> {
- 			// WorkDefinition
- 			if (pe instanceof WorkDefinition) {
- 				WorkDefinition wd = (WorkDefinition) pe;
+ 			if (pe instanceof WorkDefinition) {		// WorkDefinition
+				WorkDefinition wd = (WorkDefinition) pe;
  				
+
  				// WorkDefinition Places
  				Place ready = myFactory.createPlace();
  	 			ready.setName(wd.getName() + "_ready");
@@ -99,6 +101,7 @@ public class SimplePDLtoPetriNetEMF {
  	 			finished.setPetrinet(petrinet);
  	 			petrinet.getPetriElements().add(finished);
  	 			
+				
  	 			// WorkDefinition Transitions
  	 			Transition start = myFactory.createTransition();
  	 			start.setName(wd.getName() + "_start");
@@ -110,6 +113,7 @@ public class SimplePDLtoPetriNetEMF {
  	 			finish.setPetrinet(petrinet);
  	 			petrinet.getPetriElements().add(finish);
  	 			
+				
  	 			// WorkDefinition Arcs
  	 			Arc ready2start = myFactory.createArc();
  	 			ready2start.setWeight(1);
@@ -149,9 +153,8 @@ public class SimplePDLtoPetriNetEMF {
  	 			finish2finished.setSource(finish);
  	 			finish2finished.setTarget(finished);
  	 			finish2finished.setPetrinet(petrinet);
- 	 			petrinet.getPetriElements().add(finish2finished);	 			
- 			// WorkSequence
- 			} else if (pe instanceof WorkSequence) {
+ 	 			petrinet.getPetriElements().add(finish2finished);
+ 			} else if (pe instanceof WorkSequence) {		// WorkSequence
  				WorkSequence ws = (WorkSequence) pe;
  				
  				Arc aws = myFactory.createArc();
@@ -165,8 +168,7 @@ public class SimplePDLtoPetriNetEMF {
  	 					|| ws.getLinkType() == WorkSequenceType.FINISH_TO_START ? "_start" : "_finish")) ).toArray()[0]);
  	 			aws.setPetrinet(petrinet);
  	 			petrinet.getPetriElements().add(aws);
- 	 		// Resources
- 			} else if (pe instanceof simplepdl.Resource) {
+ 			} else if (pe instanceof simplepdl.Resource) {		// Resources
  				simplepdl.Resource rs = (simplepdl.Resource) pe;
  				
  				Place prs = myFactory.createPlace();
@@ -175,8 +177,7 @@ public class SimplePDLtoPetriNetEMF {
  				prs.setPetrinet(petrinet);
  				petrinet.getPetriElements().add(prs);
  				
- 				// Needs
- 				for (Need ne : rs.getNeeds()) {
+ 				for (Need ne : rs.getNeeds()) {		// Needs
  					Arc anLoad = myFactory.createArc();
  	 				anLoad.setWeight(ne.getNbResources());
  	 				anLoad.setIsReadArc(false);
