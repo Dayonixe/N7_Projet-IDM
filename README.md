@@ -1,4 +1,4 @@
-# Projet-IDM
+# Projet IDM
 
 Team : Quentin Gendarme & Théo Pirouelle
 
