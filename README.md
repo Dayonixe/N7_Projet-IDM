@@ -2,16 +2,10 @@
 
 Team : Quentin Gendarme & Théo Pirouelle
 
-<img src="https://img.shields.io/badge/language-eCore-474a6d?style=flat-square" alt="laguage-eCore" />
-<img src="https://img.shields.io/badge/language-OCL-c8e165?style=flat-square" alt="laguage-OCL" />
-<img src="https://img.shields.io/badge/language-Xtext-7f769d?style=flat-square" alt="laguage-Xtext" />
-<img src="https://img.shields.io/badge/language-Sirius-e6815d?style=flat-square" alt="laguage-Sirius" />
-<img src="https://img.shields.io/badge/language-Java-yellow?style=flat-square" alt="laguage-Java" />
-<img src="https://img.shields.io/badge/language-ATL-5c389a?style=flat-square" alt="laguage-ATL" />
-<img src="https://img.shields.io/badge/language-Acceleo-56c5ab?style=flat-square" alt="laguage-Acceleo" />
+<img src="https://img.shields.io/badge/language-eCore-474a6d?style=flat-square" alt="laguage-eCore" /> <img src="https://img.shields.io/badge/language-OCL-c8e165?style=flat-square" alt="laguage-OCL" /> <img src="https://img.shields.io/badge/language-Xtext-7f769d?style=flat-square" alt="laguage-Xtext" />
+<img src="https://img.shields.io/badge/language-Sirius-e6815d?style=flat-square" alt="laguage-Sirius" /> <img src="https://img.shields.io/badge/language-Java-yellow?style=flat-square" alt="laguage-Java" /> <img src="https://img.shields.io/badge/language-ATL-5c389a?style=flat-square" alt="laguage-ATL" /> <img src="https://img.shields.io/badge/language-Acceleo-56c5ab?style=flat-square" alt="laguage-Acceleo" />
 
-<img src="https://projects.laas.fr/tina/images/tina.png" alt="Tina" />
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Eclipse-Luna-Logo.svg/2560px-Eclipse-Luna-Logo.svg.png" alt="eclispe" width="300" />
+<img src="https://projects.laas.fr/tina/images/tina.png" alt="Tina" width="71" /> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Eclipse-Luna-Logo.svg/2560px-Eclipse-Luna-Logo.svg.png" alt="eclispe" width="300" />
 
 ---
 
