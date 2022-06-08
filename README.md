@@ -9,8 +9,6 @@ Team : Quentin Gendarme & Théo Pirouelle
 
 ---
 
-## Objectives
-
 This mini-project consists in producing a verification chain of process models SimplePDL in order to check their consistency, in particular to know if the process described can be terminated or not. To answer this question, we use the model-checking tools defined on Petri nets through the Tina toolbox. We will translate a process model into a Petri net.
 
 The main steps are the following:
@@ -25,8 +23,6 @@ The main steps are the following:
 For this project, we use various tools such as the [Tina toolbox](https://projects.laas.fr/tina/index.php) or the [Eclispe Modeling Project](https://www.eclipse.org/modeling/) IDE (Eclipse version with modeling tools).
 
 ---
-
-## Links
 
 Download links :
 - [Eclispe Modeling Project](https://www.eclipse.org/downloads/packages/release/2022-03/r/eclipse-modeling-tools)
