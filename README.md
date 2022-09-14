@@ -1,6 +1,6 @@
 # Projet IDM
 
-Team : Quentin Gendarme & Théo Pirouelle
+Team : Quentin G. & Théo Pirouelle
 
 <img src="https://img.shields.io/badge/language-eCore-474a6d?style=flat-square" alt="laguage-eCore" /> <img src="https://img.shields.io/badge/language-OCL-c8e165?style=flat-square" alt="laguage-OCL" /> <img src="https://img.shields.io/badge/language-Xtext-7f769d?style=flat-square" alt="laguage-Xtext" />
 <img src="https://img.shields.io/badge/language-Sirius-e6815d?style=flat-square" alt="laguage-Sirius" /> <img src="https://img.shields.io/badge/language-Java-yellow?style=flat-square" alt="laguage-Java" /> <img src="https://img.shields.io/badge/language-ATL-5c389a?style=flat-square" alt="laguage-ATL" /> <img src="https://img.shields.io/badge/language-Acceleo-56c5ab?style=flat-square" alt="laguage-Acceleo" />
